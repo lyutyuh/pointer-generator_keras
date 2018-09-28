@@ -631,9 +631,9 @@ def main():
 
     MD = SummarizationModel(None, configs, hps)
     MD.build()
-    vocab_path = '/mnt/E/WORK/DATA/CNN_DM/finished_files/vocab'
-    train_data_path = '/mnt/E/WORK/DATA/CNN_DM/finished_files/chunked/train*'
-    valid_data_path = '/mnt/E/WORK/DATA/CNN_DM/finished_files/chunked/val*'
+    vocab_path = '/path/to/vocab'
+    train_data_path = '/path/to/train*'
+    valid_data_path = '/path/to/val*'
     single_pass = True
     vocab = Vocab(vocab_path, hps.vocab_size)
 
